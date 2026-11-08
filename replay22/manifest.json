@@ -1,0 +1,183 @@
+{
+  "schema": "colony.g1.replay22.v1",
+  "cli": "speedrunpapi@0.3.2",
+  "method": "Warm core analyzer, median of 750 scanAny execution times following 100 warmup scans per fixture; file IO and classification outside timed core; Picus wall times recorded in earlier G1 lab, SHA Picus terminated at 180000 ms.",
+  "rows": [
+    {
+      "id": "modsum_safe_n4",
+      "file": "carry/modsum_safe_n4.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1432.7,
+      "sha256": "sha256:062c45cae2074bcf5a45667d324e91aebd54cd5888c2d0789285fcbbd5273eea"
+    },
+    {
+      "id": "modsum_safe_n8",
+      "file": "carry/modsum_safe_n8.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1439.95,
+      "sha256": "sha256:b971f4f1a8ceb3aca6e34337c271ffb80f1a8cd1384162d4443a81160ce923c8"
+    },
+    {
+      "id": "modsum_safe_n16",
+      "file": "carry/modsum_safe_n16.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1393.37,
+      "sha256": "sha256:d1c4cbcf61ed626826c85b3500f83476199f88fb3bc7c0e6900ab9f1c86624c5"
+    },
+    {
+      "id": "modsum3_safe_n4",
+      "file": "carry/modsum3_safe_n4.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1419.58,
+      "sha256": "sha256:c4024249fdf39558a3bb47e41ba35e5f26275540d262c0b553ece660b8a695b0"
+    },
+    {
+      "id": "full_adder_bits",
+      "file": "carry/full_adder_bits.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1363.84,
+      "sha256": "sha256:4451a43e1d7d8947688a9baa9ae6f4660d2a3649e08973975cfcdc137f8177f1"
+    },
+    {
+      "id": "shared_input_parallel_m3_w8",
+      "file": "carry/shared_input_parallel_m3_w8.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1370.13,
+      "sha256": "sha256:ba740ab12ed46eae22b798e13e2c3b43ecfdd0557695b38d0dfb49460e7b301b"
+    },
+    {
+      "id": "cascade3_safe_n4",
+      "file": "carry/cascade3_safe_n4.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1382.74,
+      "sha256": "sha256:8ec9bf6ba4078c24a2bb244c7de144f9c10cba9ad995554171c4f1023950bc0e"
+    },
+    {
+      "id": "limb_add_safe_n4_k2",
+      "file": "limb/limb_add_safe_n4_k2.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1368,
+      "sha256": "sha256:494f846cf76ef07aae628032f4ff16a450bc1e09a0037e4df3f11a6b9712a9b1"
+    },
+    {
+      "id": "limb_add_safe_n4_k4",
+      "file": "limb/limb_add_safe_n4_k4.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1387.45,
+      "sha256": "sha256:b320ced075584df64c16a5d468adb18a36cf2bfe7f05292023185c804d39be10"
+    },
+    {
+      "id": "limb_add_safe_n8_k4",
+      "file": "limb/limb_add_safe_n8_k4.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1329.24,
+      "sha256": "sha256:f631745786bec5c6e6642e1662ae8f24f0aa0164a01e239016001b647045bd68"
+    },
+    {
+      "id": "u4_add_safe_k8",
+      "file": "bitvm_model/u4_add_safe_k8.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1477.33,
+      "sha256": "sha256:e25397eadb7ad1e5ec36d9531b4162b00d55c06bbfab4f7852199f39ac7a598e"
+    },
+    {
+      "id": "modsum_no_bitify_n4",
+      "file": "buggy/modsum_no_bitify_n4.circom",
+      "expected_verdict": "Broken",
+      "picus_verdict": "unsafe",
+      "picus_ms": 1436.08,
+      "sha256": "sha256:a6d9f4f4574f597236f92485a84d1865369d2c934a45457455649820d68d9686"
+    },
+    {
+      "id": "modsum_carry_not_bit_n4",
+      "file": "buggy/modsum_carry_not_bit_n4.circom",
+      "expected_verdict": "Broken",
+      "picus_verdict": "unsafe",
+      "picus_ms": 37470.91,
+      "sha256": "sha256:b4581833f404e576fec157295fdb1a4a4f0cdb30c9d10a9100bb8815f9c4a821"
+    },
+    {
+      "id": "full_adder_no_bit_checks",
+      "file": "buggy/full_adder_no_bit_checks.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1709.26,
+      "sha256": "sha256:7603d5138353c950665a6411c53548e45fcbd20d7eec8200b93b20a966c05d95"
+    },
+    {
+      "id": "limb_add_missing_range_n4_k2",
+      "file": "buggy/limb_add_missing_range_n4_k2.circom",
+      "expected_verdict": "Broken",
+      "picus_verdict": "unsafe",
+      "picus_ms": 1556.51,
+      "sha256": "sha256:e4fd7ca1da933efbd8daafd0e437b712e8fc14fa77b547929276640310bb6af7"
+    },
+    {
+      "id": "u4_add_buggy_k8",
+      "file": "bitvm_model/u4_add_buggy_k8.circom",
+      "expected_verdict": "Broken",
+      "picus_verdict": "unsafe",
+      "picus_ms": 3089.49,
+      "sha256": "sha256:36634e638be712b5db760e55cdbeb23891f886f5fe05946bccfb8732d9f84e27"
+    },
+    {
+      "id": "shared_input_no_bitify_m3_w8",
+      "file": "buggy/shared_input_no_bitify_m3_w8.circom",
+      "expected_verdict": "Broken",
+      "picus_verdict": "unsafe",
+      "picus_ms": 1424.97,
+      "sha256": "sha256:c22292202efd55502651ed5c8ff9fca70d622d320f1fb90bfe96c8a4008c282b"
+    },
+    {
+      "id": "cascade3_no_bitify_n4",
+      "file": "buggy/cascade3_no_bitify_n4.circom",
+      "expected_verdict": "Broken",
+      "picus_verdict": "unsafe",
+      "picus_ms": 1542.59,
+      "sha256": "sha256:01060d158741b51e7211aa4d5c139fc364bd9bb036dd71c0c1d3a55f0f230039"
+    },
+    {
+      "id": "picus_bigadd_15",
+      "file": "replay22/upstream/circom-bigint-7505e5c/test_bigadd_15.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1417.17,
+      "sha256": "sha256:dc260268079d0582087382275f2957a643d7624427ca70e361e37eb18b4c6c24"
+    },
+    {
+      "id": "picus_bigadd_23",
+      "file": "replay22/upstream/circom-bigint-7505e5c/test_bigadd_23.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1465.47,
+      "sha256": "sha256:7f011b2c1782ae174175fe0f978253b64db22108b439a67718e03622b46c8f0b"
+    },
+    {
+      "id": "picus_binsum",
+      "file": "replay22/upstream/circomlib-cff5ab6/BinSum@binsum.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "safe",
+      "picus_ms": 1680.71,
+      "sha256": "sha256:d4331937a4c36bc0013e38e268216bb4fff1ab07dc4b8f69a3c373826eb7d6ea"
+    },
+    {
+      "id": "sha256compression",
+      "file": "replay22/upstream/circomlibex-cff5ab6/Sha256compression@sha256compression@circomlib.circom",
+      "expected_verdict": "Certified",
+      "picus_verdict": "timeout",
+      "picus_ms": 180000,
+      "sha256": "sha256:f7b38853b04e1b9ebcb77c29b54f2993ca439a33e57710cf50b9732876d2a614"
+    }
+  ]
+}

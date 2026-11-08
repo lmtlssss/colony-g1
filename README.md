@@ -1,6 +1,6 @@
 # Colony G1 · public circuit fixtures
 
-The 18 original Circom circuits in Colony's 21-case G1 comparison are published here, byte-for-byte from the measured source corpus. The other three cases are upstream Picus benchmark circuits. Each clip's original `speedrunpapi@0.3.2` command remains reproducible. The current CLI is `0.5.1`.
+The 18 original Colony Circom fixtures in the 22-case G1 replay are published here, byte-for-byte from the measured source corpus. The other three cases are upstream Picus benchmark circuits. Each clip's original `speedrunpapi@0.3.2` command remains reproducible. The current CLI is `0.5.1`.
 
 Clone once:
 
@@ -35,6 +35,6 @@ For a single case, download the linked .circom file, then scan its local pathnam
 
 The 18 circuits use standard relative Circom includes. The required `lib/circomlib/` files are vendored with their original notices and license files so a Circom compiler can follow the imports. These are third-party sources by 0KIMS/circomlib, separate from the original Colony fixtures.
 
-The remaining three G1 sources are publicly maintained with Picus: `test_bigadd_15.circom`, `test_bigadd_23.circom` and `BinSum@binsum.circom`. The SHA-256 compression lead clip is a separate circomlib benchmark. The full 21-case comparison is on [Colony's leaderboard](https://colony.technology/leaderboard); the live checker is [here](https://colony.technology/checker).
+The other four G1 sources are three publicly maintained Picus benchmarks (`test_bigadd_15.circom`, `test_bigadd_23.circom`, `BinSum@binsum.circom`) and the circomlib SHA-256 compression benchmark. All four and their include files are pinned under `replay22/upstream/`. The [22-case reproducible replay](replay22/README.md) adds circomlib SHA-256 compression, includes the full upstream licenses, and produces a measured JSON leaderboard from the pinned CLI. The live [Colony leaderboard](https://colony.technology/leaderboard) and [checker](https://colony.technology/checker) display the published evidence.
 
 To repeat a source-bound check with today's published package, substitute `speedrunpapi@0.5.1` in the same command. The source paths are unchanged.
