@@ -1,5 +1,15 @@
 # Colony G1 · public circuit fixtures
 
+> **Status, 10 November 2026.** This corpus was published with speedrunpapi versions that judged circuits by matching source patterns. Those versions did not analyse the constraint system, and the timing comparison under `replay22/` measured that lookup against a solver. **The comparison is withdrawn.**
+>
+> The fixtures themselves are sound test material: each was written with a known answer. [speedrunpapi 0.7.1](https://github.com/lmtlssss/speedrunpapi), which compiles each circuit with circom and analyses the R1CS for output determinism, reaches the verdict listed below for all 18, with a derivation an independent checker replays or two checked witnesses. Reproduce with circom 2.x installed:
+>
+> ```sh
+> npx --yes speedrunpapi@0.7.1 scan carry/modsum_safe_n4.circom -l lib/circomlib/circuits
+> ```
+>
+> The `speedrunpapi@0.3.2` commands further down, and everything in `replay22/`, are kept only as a record of what was published.
+
 The 18 original Colony Circom fixtures in the 22-case G1 replay are published here, byte-for-byte from the measured source corpus. The other three cases are upstream Picus benchmark circuits. Each clip's original `speedrunpapi@0.3.2` command remains reproducible. The current CLI is `0.5.1`.
 
 Clone once:

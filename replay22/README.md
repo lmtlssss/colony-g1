@@ -1,3 +1,5 @@
+> **Withdrawn.** This replay timed a pattern lookup in pre-0.7.1 speedrunpapi against a solver. It did not measure an analysis. It is kept as a record only; see the repository README.
+
 # G1 / 22-circuit pinned replay
 
 Reproduce the Colony source and verdict checks, then measure the same warm core analyzer that `speedrunpapi@0.3.2` uses.
